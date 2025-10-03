@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -38,6 +39,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: New Layer 5
+    uniqueID: 2559165967
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 4288543963
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 1853440953
+    locked: 0
+  - name: New Layer 8
+    uniqueID: 1811262987
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: New Layer 1
+    uniqueID: 4168430789
+    locked: 0
+  - name: duck
+    uniqueID: 1756864751
+    locked: 0
+  m_RenderingLayers:
+  - Default

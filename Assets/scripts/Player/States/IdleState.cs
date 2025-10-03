@@ -11,7 +11,12 @@ namespace Player
 
         public override void Enter()
         {
-            base.Enter();
+            player.anim.Play("idle");
+
+            player.anim.SetBool("jump", false);
+            player.anim.SetBool("attack", false);
+            player.anim.SetBool("run", false);
+            player.anim.SetBool("run2", false);
         }
 
         public override void Exit()
@@ -28,6 +33,10 @@ namespace Player
         {
             player.CheckForRun();
             Debug.Log("checking for run");
+            player.CheckForJump();                ////////////
+            Debug.Log("checking for jump");
+            player.CheckForAttack();                ////////////
+            Debug.Log("checking for attack");
             base.LogicUpdate();
         }
 
